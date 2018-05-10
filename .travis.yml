@@ -35,4 +35,4 @@ script:
 - sfdx force:package:install -i 04t1Y0000011SYRQA2 -u ciorg -w 10
 
 - sfdx force:apex:test:run -u ciorg --wait 10
-
+- sfdx force:org:delete -u ciorg -p
